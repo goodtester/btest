@@ -1,0 +1,6 @@
+.DS_Store
+.Trash-0/
+cypress/screenshots/
+cypress/videos/
+reports/
+node_modules/

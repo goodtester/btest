@@ -1,0 +1,20 @@
+{
+  "article": {
+    "slug": "qa-is-cool-title-xxxxx",
+    "title": "QA is cool title",
+    "description": "QA is cool description",
+    "body": "### QA is cool body",
+    "createdAt": "2021-03-19T03:40:24.425Z",
+    "updatedAt": "2021-03-19T12:52:41.643Z",
+    "tagList": [
+      "cooltester"
+    ],
+    "favorited": true,
+    "favoritesCount": 1,
+    "author": {
+      "username": "cooltester11",
+      "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+      "following": false
+    }
+  }
+}

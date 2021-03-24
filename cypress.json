@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://candidatex:qa-is-cool@qa-task.backbasecloud.com/#",
+  "experimentalStudio": true,
+  "screenshotOnRunFailure": true,
+  "video": true,
+  "ignoreTestFiles":	"**/examples/*.js",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "reports/results",
+      "overwrite": false,
+      "html": false,
+      "json": true,
+      "quiet": true
+    }
+  }
+}

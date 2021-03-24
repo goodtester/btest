@@ -1,0 +1,23 @@
+{
+  "name": "bblog",
+  "version": "1.0.0",
+  "description": "Backspace Blog",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha-junit-reporter": "1.23.1",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "clean": "rimraf reports",
+    "cy:open": "cypress open",
+    "cy:run": "npm run clean && cypress run --browser chrome --headless",
+    "cy:report": "npx mochawesome-merge 'reports/results/*.json' > reports/mochawesome.json &&  npx marge reports/mochawesome.json -o reports && open reports/mochawesome.html"
+  },
+  "author": "Rohini",
+  "license": "ISC"
+}
